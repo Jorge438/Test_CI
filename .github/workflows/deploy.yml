@@ -20,7 +20,7 @@ jobs:
         PASSPHRASE: ${{ secrets.PASSPHRASE }}
       with:
         source: "."
-        target: "/var/www/html/Test_CI"
+        target: "/var/www/html/Test"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
